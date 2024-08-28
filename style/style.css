@@ -1,0 +1,279 @@
+* {
+    margin: 0;
+    top: 0;
+    padding: 0;
+}
+
+body {
+    background-color: hsl(216, 12%, 8%);
+    font-size: 15px;
+    font-family: 'Overpass';
+}
+
+main {
+    width: 50%;
+    margin: auto;
+    align-content: center;
+    height: 100vh;
+}
+
+.bloco {
+    display: none;
+}
+
+.bloco.ativo {
+    display: block;
+}
+
+.bloco1 {
+    background-color: #1e252f;
+    border-radius: 10px;
+    height: auto;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 290px;
+
+}
+
+.bloco1 header {
+    color: hsl(0, 0%, 100%);
+    margin: 15px;
+    display: grid;
+
+}
+
+.bloco1 .star {
+    margin-bottom: 10px;
+    background-color: #272e38;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    align-content: center;
+    margin-top: 15px;
+}
+
+.bloco1 .titulo {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.bloco1 .info {
+    margin: 15px;
+    margin-top: 0;
+    color: hsl(217, 12%, 63%);
+}
+
+.rating-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 15px;
+    margin-top: 0;
+    color: hsl(210, 2%, 33%);
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.rating.ativo {
+    background-color: white;
+    color: black;
+}
+
+
+.rating1 {
+    background-color: #262f38;
+    color: hsl(210, 1%, 40%);
+    font-weight: 700;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-style: none;
+}
+
+
+.rating2 {
+    background-color: #272e38;
+    color: hsl(210, 1%, 40%);
+    font-weight: 700;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-style: none;
+}
+
+
+.rating3 {
+    background-color: #272e38;
+    color: hsl(210, 1%, 40%);
+    font-weight: 700;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-style: none;
+}
+
+
+.rating4 {
+    background-color: #272e38;
+    color: hsl(210, 1%, 40%);
+    font-weight: 700;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-style: none;
+}
+
+
+.rating5 {
+    background-color: #272e38;
+    color: hsl(210, 1%, 40%);
+    font-weight: 700;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-style: none;
+}
+
+
+.botao {
+    background-color: hsl(25, 97%, 53%);
+    border-style: none;
+    font-weight: 700;
+    width: 90%;
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+    border-radius: 15px;
+    height: 30px;
+    align-items: center;
+    margin-top: 0;
+    letter-spacing: 3px;
+    font-size: 12px;
+
+
+}
+
+.bloco2 {
+    background-color: #1e252f;
+    border-radius: 10px;
+    height: auto;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.bloco2 header {
+    color: hsl(25, 97%, 53%);
+    margin: 15px;
+    display: grid;
+    justify-content: center;
+
+
+}
+
+.bloco2 img {
+    margin-top: 15px;
+    width: 80%;
+    height: 80%;
+}
+
+.bloco2 .titulo {
+    background-color: #272e38;
+    border-radius: 15px;
+    font-size: 10px;
+    width: 125px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-top: 15px;
+    justify-content: center;
+
+}
+
+.thank-you {
+    font-weight: 700;
+    font-size: 20px;
+    color: hsl(0, 0%, 100%);
+    margin: auto;
+    text-align: center;
+
+}
+
+.bloco2 .info {
+    margin: 15px;
+    color: hsl(217, 12%, 63%);
+    text-align: center;
+    margin-top: 5px;
+
+
+
+}
+
+@media screen and (min-width: 600px) {
+    .bloco1 {
+        background-color: #1e252f;
+        border-radius: 10px;
+        width: 350px;
+        margin: 0 auto;
+    }
+
+    .botao:hover {
+        background-color: white;
+
+    }
+
+    .rating-container {
+        margin-bottom: 20px;
+    }
+
+    .rating1:hover {
+        background-color: hsl(25, 97%, 53%);
+    }
+
+    .rating2:hover {
+        background-color: hsl(25, 97%, 53%);
+    }
+
+    .rating3:hover {
+        background-color: hsl(25, 97%, 53%);
+    }
+
+    .rating4:hover {
+        background-color: hsl(25, 97%, 53%);
+    }
+
+    .rating5:hover {
+        background-color: hsl(25, 97%, 53%);
+    }
+
+    .bloco2 {
+        width: 350px;
+        margin: 0 auto;
+        height: 260px;
+    }
+
+    .bloco2 .info {
+        margin: 15px;
+    }
+
+    .bloco2 .titulo{
+        justify-content: space-evenly;
+    }
+
+
+}
